@@ -1,0 +1,156 @@
+@media only screen and (max-width: 480px) {
+  .flex {
+    background-color: #f5f4f5;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header .flex.container.head {
+  display: block;
+}
+
+  nav.logo-desktop {
+    display: none;
+  }
+  nav.logo-mobile {
+    display: block;
+    width: 100%;
+    height: 40px;
+
+  }
+
+  nav.logo-mobile ul{
+    margin-top: 8px;
+  }
+
+  nav.logo-mobile ul li{
+    align-items: center;
+    padding: 0 10px;
+    vertical-align: bottom;
+  }
+
+  .header .flex.container.head .main-banner .main{
+    display: none;
+
+  }
+
+  .header .flex.container.head .main-banner {
+    display: block;
+    background-color: darkgray;
+    width: 100%;
+    height: 180px;
+}
+
+  .container.content .flex-info.container.head .main-banner {
+    display: none;
+  }
+
+  .flex.container.head .description .title .desc span {
+    margin: 30px 15px 0 15px;
+  }
+
+  .flex.container.head .description {
+    display: block;
+    margin-bottom: 32px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .description .title .desc h1 {
+    font-size: 40px;
+    padding: 32px 0 32px 16px;
+    line-height: 1.2;
+}
+
+.description .title .desc p {
+    padding: 0 0 24px 16px;
+}
+
+.links .sect .images img {
+  display: none;
+}
+
+.links .sect .images .orientation-mobile,
+.links .sect .images .lecture-mobile,
+.links .sect .images .campus-mobile {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.links .sect-link .sect {
+  display: block;
+  border: none;
+}
+
+.flex-info.container.head .links .sect-link .sect .sect-desc,
+.flex-info.container.head .links .sect-link .sect .images {
+  display: block;
+  width: 100%;
+}
+
+.container.content .flex-info.container.head .links {
+  border: none;
+}
+
+.container.content .flex-info {
+  background-color: #f5f4f5;
+}
+
+  .container.start-learning .start-learning-title {
+    width: 100%;
+  }
+
+  .container.start-learning .start-learning-title .photos {
+    display: block;
+  }
+
+  .container.start-learning .start-learning-title .photos .pho {
+    margin: 0;
+    height: 80px;
+    background-color: #f5f4f5;
+  }
+
+  .container.start-learning .start-learning-title .photos .pho .image-description {
+    background-color: #d8d8d8;
+    width: 90%;
+    margin: 12px auto;
+  }
+
+  .container.start-learning .photos .pho img,
+  .container.start-learning .photos .pho .image-description span,
+  .container.start-learning .photos .pho .image-description p,
+  .container.head .content .container.head.second .links.border,
+  .container.head .content .container.head.second .second-banner .information-description {
+    display: none;
+  }
+
+  .container.head .content,
+  .container.head .content .flex-info {
+    background-color: #f5f4f5;
+  }
+
+  .container.head .content .container.head.second {
+    border: none;
+  }
+
+  .container.head .content .container.head.second .second-banner {
+    padding: 0;
+  }
+
+  .container.head .content .container.head.second .second-banner,
+  .container.head .content .container.head.second .second-banner .second video {
+    width: 100%;
+    height: 250px;
+  }
+
+  .footer.flex.container span {
+  margin-top: 30px;
+  }
+
+  .footer.flex.container ul {
+    display: none;
+  }
+}
